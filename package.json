@@ -1,0 +1,36 @@
+{
+    "name": "vscode-ext-keyboard-65",
+    "displayName": "keyboard-65",
+    "description": "Install keybindings for a 65% keyboard",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.86.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keybinding",
+        "keymap",
+        "mac",
+        "macos",
+        "65",
+        "65%"
+    ],
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/katlimruiz/vscode-ext-keyboard-65.git"
+    },
+    "bugs": {
+        "url": "https://github.com/katlimruiz/vscode-ext-keyboard-65/issues"
+    },
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+.",
+                "command": "workbench.action.showCommands"
+            }
+        ]
+    }
+}
