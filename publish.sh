@@ -1,0 +1,1 @@
+cat package.json|jq --slurpfile extracted extracted.json  '.contributes.keybindings = $extracted[]'>package-to-publish.json

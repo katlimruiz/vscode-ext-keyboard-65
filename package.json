@@ -26,6 +26,10 @@
     "bugs": {
         "url": "https://github.com/katlimruiz/vscode-ext-keyboard-65/issues"
     },
+    "scripts": {
+        "compile": "sh extract.sh",
+        "prepublishOnly": "npm run compile && sh publish.sh"
+    },
     "contributes": {
         "keybindings": []
     }
