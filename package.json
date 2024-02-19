@@ -18,6 +18,7 @@
         "65%"
     ],
     "icon": "icon.png",
+    "homepage": "https://github.com/katlimruiz/vscode-ext-keyboard-65/blob/main/README.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/katlimruiz/vscode-ext-keyboard-65.git"
@@ -26,11 +27,6 @@
         "url": "https://github.com/katlimruiz/vscode-ext-keyboard-65/issues"
     },
     "contributes": {
-        "keybindings": [
-            {
-                "key": "ctrl+.",
-                "command": "workbench.action.showCommands"
-            }
-        ]
+        "keybindings": []
     }
 }
